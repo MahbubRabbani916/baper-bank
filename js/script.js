@@ -6,6 +6,6 @@ document.getElementById('login-form').addEventListener('click', function () {
     const passwordFilled = document.getElementById('user-password');
     const userPassword = passwordFilled.value;
     // console.log(userPassword)
-    if (userEmail == 'rabbani@gmail.com' && userPassword == 'janinaami')
+    if (userEmail == 'rabbani@gmail.com' && userPassword == 'janinaami') {
         window.location.href = 'bankingsite.html'
-})
+    })
