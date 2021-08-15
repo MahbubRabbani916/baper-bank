@@ -8,4 +8,6 @@ document.getElementById('login-form').addEventListener('click', function () {
     // console.log(userPassword)
     if (userEmail == 'rabbani@gmail.com' && userPassword == 'janinaami') {
         window.location.href = 'bankingsite.html'
-    })
+    }
+
+})
